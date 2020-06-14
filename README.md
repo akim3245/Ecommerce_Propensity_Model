@@ -3,7 +3,7 @@
 #### -- Project Status: [Active]
 
 ## Project Intro
-Building a model to predict customer propensity to purchase on a store website. 
+Building a model to predict customer propensity to purchase on an online store.
 
 ## Project Description
 Information from the dataset is fictional and contains a day's worth of visits. 
