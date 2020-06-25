@@ -53,4 +53,4 @@ Lift over control = (treatment conversion rate - control conversion rate) / cont
 
 [![Screen-Shot-2020-06-24-at-9-41-52-PM.png](https://i.postimg.cc/tgpPGwMV/Screen-Shot-2020-06-24-at-9-41-52-PM.png)](https://postimg.cc/dhND8Hvq)
 
-The chart demonstrates a decrease in conversion rate as decile number increase. 
+The chart demonstrates a decrease in conversion rate as decile number increase. The very first decile in the treatment group saw 2x lift over control group.
