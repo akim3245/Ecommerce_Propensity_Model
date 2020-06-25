@@ -31,7 +31,7 @@ Logistic Regression performed with the highest roc_auc score of 0.9975.
 As a base model, I proceeded with Logistic Regression to train and make predictions. Here is a cross tab of the predicted vs actual values.
 [![Screen-Shot-2020-06-24-at-10-24-58-PM.png](https://i.postimg.cc/s2MQpW1w/Screen-Shot-2020-06-24-at-10-24-58-PM.png)](https://postimg.cc/bGjwPsxt)
 
-There is a high number of 0's being predicted and very few 1's being predicted (only 26) which shows that the dataset is a highly imbalanced.
+There is a high number of 0's being predicted and very few 1's being predicted (only 26) which shows that the dataset is highly imbalanced.
 Another visual of imbalanced data is shown by the value counts of the target variable.
 [![Screen-Shot-2020-06-13-at-11-12-03-PM.png](https://i.postimg.cc/7bv5gkWF/Screen-Shot-2020-06-13-at-11-12-03-PM.png)](https://postimg.cc/8fHkSqD4)
 
