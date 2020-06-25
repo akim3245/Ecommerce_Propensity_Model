@@ -40,8 +40,8 @@ To handle the imbalanced dataset, I upsampled the minority class (where df.order
 The crosstab of predicted vs actual also showed an increase in 1s being predicted compared to the base model.
 [![Screen-Shot-2020-06-24-at-10-36-12-PM.png](https://i.postimg.cc/cC34H798/Screen-Shot-2020-06-24-at-10-36-12-PM.png)](https://postimg.cc/N2gwCXwg)
 
-## Propensity Modelling
-After training the model, it was time to use the test data to build a propensity model.
+## Measuring Model Impact 
+After training the model, it was time to use the test data to measure the model value.
 
 The test data was split 50/50 into the control group and treatment group. 
 
