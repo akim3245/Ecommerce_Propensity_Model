@@ -20,7 +20,7 @@ Target variable: 'Ordered' -- *did the customer make an order or not?*
 
 
 ## Building the Model
-I used cross validation to get the auc roc scores for the following algorithms:
+I used cross validation to get the roc auc scores for the following algorithms:
 * Logistic Regression
 * Random Forest
 * Decision Tree
@@ -33,6 +33,7 @@ As a base model, I proceeded with Logistic Regression to train and make predicti
 
 There is a high number of 0's being predicted and very few 1's being predicted (only 26) which shows that the dataset is highly imbalanced.
 Another visual of imbalanced data is shown by the value counts of the target variable.
+
 [![Screen-Shot-2020-06-13-at-11-12-03-PM.png](https://i.postimg.cc/7bv5gkWF/Screen-Shot-2020-06-13-at-11-12-03-PM.png)](https://postimg.cc/8fHkSqD4)
 
 To handle the imbalanced dataset, I upsampled the minority class (where df.ordered == 1) to match the same count as the majority class and then trained the model and made predictions on the upsampled data. As a result, precision increased from 0.868 to 0.992 and recall increased from 0.985 to 0.992. 
